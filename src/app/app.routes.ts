@@ -1,9 +1,13 @@
 import { Routes } from '@angular/router';
-import { NgModule } from '@angular/core';
 import { SignupComponent } from './components/signup/signup.component';
+// import { NgModule } from '@angular/core';
+import { HomeComponent } from './components/home/home.component';
+
 export const routes: Routes = [
 
 
-  { path: 'signup', component: SignupComponent },
+  { path: '../signup', component: SignupComponent },
+  { path: '../home', component: HomeComponent },
+
 
 ];

@@ -8,7 +8,6 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
   styleUrl: './signup.component.css'
 })
 
-
 export class SignupComponent implements OnInit {
   signupForm: FormGroup;
   router: any;
