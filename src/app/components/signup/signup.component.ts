@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-signup',
   standalone: true,
@@ -10,6 +11,7 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
 
 export class SignupComponent implements OnInit {
   signupForm: FormGroup;
+
   router: any;
 
   constructor(private _fb:FormBuilder ) {
@@ -24,7 +26,7 @@ export class SignupComponent implements OnInit {
 
   onSubmit(): void {
     if (this.signupForm.valid) {
-      console.log('Form Submitted!', this.signupForm.value);
+      // console.log('Form Submitted!', this.signupForm.value);
       this.router.navigate(['/home']); // twadene 3 safha tenye
     }
   }

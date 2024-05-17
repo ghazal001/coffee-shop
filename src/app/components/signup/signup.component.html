@@ -21,7 +21,6 @@
       <div *ngIf="signupForm.get('password').invalid && signupForm.get('password').touched">
         Password is required.
       </div>
-
     </div>
     <button type="submit" [disabled]="signupForm.invalid">Signup</button>
   </form>
