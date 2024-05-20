@@ -1,0 +1,23 @@
+.product-title {
+  color: black;
+  font-weight: 600;
+  font-size: 2.1rem;
+  padding-left: 45%;
+  padding-top: 20px;
+}
+
+.product-title span {
+  color: #C06B3E;
+}
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url("https://www.codingnepalweb.com/demos/create-responsive-coffee-website-html-css/hero-bg.jpg");
+  background-size: cover;
+}
+.one {
+  display: flex;
+justify-content: center;
+}

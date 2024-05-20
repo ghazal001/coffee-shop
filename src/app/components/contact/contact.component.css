@@ -1,0 +1,53 @@
+.contact-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 26px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  z-index: 2;
+
+}
+
+.one{
+  padding-top: 100px;
+  height: 80%;
+  /* background-image: url("https://th.bing.com/th/id/OIP.WW3r94nGGdBO_Gk-tV6DZQHaFj?rs=1&pid=ImgDetMain"); */
+}
+#two{
+  padding-top: 10px;
+  margin-top: 10px;
+}
+#three{
+ color: white;
+font-size: 30px;
+padding-left: 45%;
+border-radius: 8px;
+text-align: center;
+
+
+  margin-bottom: 24px;
+
+
+}
+h2{
+  font-size: 20px;
+  text-align: center;
+
+}
+mat-form-field {
+  width: 100%;
+  margin-bottom: 26px;
+}
+
+button {
+  width: 100%;
+  background-color: #795548; /* Brown color */
+  color: white;
+
+}
+mat-raised-button{
+  width: 50%;
+}

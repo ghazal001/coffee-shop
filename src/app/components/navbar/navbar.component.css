@@ -1,9 +1,19 @@
+@import "primeicons/primeicons.css";
 .navbar {
   background-color: #000;
   color: #fff;
   padding: 1rem 2rem;
 }
 
+.navbar .logo {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2.1rem;
+  text-decoration: none;
+}
+.navbar .logo span {
+  color: #C06B3E;
+}
 .container {
   display: flex;
   justify-content: space-between;
