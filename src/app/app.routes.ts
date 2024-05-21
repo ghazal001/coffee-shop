@@ -9,12 +9,7 @@ import { ProductComponent } from './components/product/product.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { BrowserModule } from '@angular/platform-browser';
 export const routes: Routes = [
-// { path: 'home', component: HomeComponent },
-  // { path: 'home', component: HomeComponent },
-  // { path: '', redirectTo: '/home', pathMatch: 'full' },
 
-
-  // { path: '../signup', component: SignupComponent },
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'menu', component: HomeComponent },
